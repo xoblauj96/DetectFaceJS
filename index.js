@@ -13,7 +13,10 @@ function startVideo() {
     navigator.getUserMedia(
         { video: true },
         stream => video.srcObject = stream,
-        err => console.error(err)
+        (err) =>{
+                err => console.error(err)
+                alert("Error"+err)
+        }
     )
 }
 

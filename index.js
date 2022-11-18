@@ -37,4 +37,4 @@ video.addEventListener("play", () => {
         console.log(detections);
     }, 100)
 })
-// update
+// update thank you very much now i have success my project

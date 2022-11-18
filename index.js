@@ -1,7 +1,7 @@
 const video = document.getElementById("videoElement");
 
 Promise.all([
-    faceapi.nets.tinyFaceDetector.loadFromUri('../DetectFaceJS/models'),
+    faceapi.nets.tinyFaceDetector.loadFromUri('models'),
     faceapi.nets.faceLandmark68Net.loadFromUri('../DetectFaceJS/models'),
     faceapi.nets.faceRecognitionNet.loadFromUri('../DetectFaceJS/FetectFaceJS/models'),
     faceapi.nets.faceExpressionNet.loadFromUri('../DetectFaceJS/models')
